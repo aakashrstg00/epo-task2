@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Preparation Online</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+</head>
+
+<body ng-app="App">
+    <header>
+        <h1>Exam Preparation Online</h1>
+    </header>
+    <div class="body" ng-controller="AppController">
+        <aside>
+            <div class="well">
+                <button class="right">Apply Filter</button><br>
+                <div>
+                    <div class="select-style">Organisation: <br>
+                        <select ng-model="org" name="org">
+                            <option value="ARW">ARW</option>
+                            <option value="XYZ">XYZ</option>
+                        </select></div>
+                    <div class="select-style">Engineering Stream: <br>
+                        <select ng-model="stream" name="stream">
+                            <option></option>
+                            <option value="CSE">CSE</option>
+                            <option value="IT">IT</option>
+                        </select></div>
+                    <div class="select-style">Application Mode: <br>
+                        <select ng-model="appMode" name="appMode">
+                            <option></option>
+                            <option value="On Campus">On Campus</option>
+                            <option value="Off Campus">Off Campus</option>
+                        </select></div>
+                </div>
+            </div>
+            <div class="well">
+                <button class="right" ng-click="selectall()">Select All</button> <span class="right">&nbsp;/&nbsp;</span>
+                <button ng-click="clearall()" class="right">Clear All</button><br>
+                <div>
+                    <div><label class="container"><input type="checkbox" ng-model="sp"> <span class="checkmark"></span>Selection Procedure</label></div>
+                    <div><label class="container"><input type="checkbox" ng-model="ti"> <span class="checkmark"></span>Technical Interview</label></div>
+                    <div><label class="container"><input type="checkbox" ng-model="aq"> <span class="checkmark"></span>Analytical Questions</label></div>
+                    <div><label class="container"><input type="checkbox" ng-model="hrq"> <span class="checkmark"></span>HR Questions</label></div>
+                    <div><label class="container"><input type="checkbox" ng-model="sg"> <span class="checkmark"></span>Suggestions</label></div>
+                </div>
+            </div>
+        </aside>
+        <section>
+            <div>
+                <h2>INTERVIEW EXPERIENCES :: {{org}}</h2>
+            </div>
+            <div>
+                <div class="outline-box" ng-repeat="post in posts|filter:appMode">
+                    <div><span class="gray">Job Location :</span> {{post.jobLocation}}</div>
+                    <div><span class="gray">Organisation :</span> {{post.organisation}}</div>
+                    <div><span class="gray">Application Mode :</span> {{post.applicationMode}}</div>
+                    <div ng-show="sp"><span class="gray">Selection Procedure :</span> {{post.selectionProcedure}}</div>
+                    <div ng-show="ti"><span class="gray">Technical Interview :</span> {{post.technicalInterview}}</div>
+                    <div ng-show="aq"><span class="gray">Analytical Questions :</span> {{post.analyticalQuestions}}</div>
+                    <div ng-show="hrq"><span class="gray">HR Questions :</span> {{post.hrQuestions}}</div>
+                    <div ng-show="sg"><span class="gray">Suggestions :</span> {{post.suggestions}}</div>
+                    <div><span class="gray">Shared By :</span> {{post.sharedBy}}</div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/ang.js"></script>
+</body>
+
+</html>

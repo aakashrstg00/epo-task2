@@ -1,0 +1,77 @@
+[{
+        "jobLocation": "Chennai",
+        "organisation": "ARW",
+        "applicationMode": "On Campus",
+        "selectionProcedure": "Looking for candidates strong in Web Development. They conduct aptitude test and also a design round.",
+        "technicalInterview": "They ask about your recent projects and the technologies you've worked with.",
+        "analyticalQuestions": "They usually ask questions on profit and loss.",
+        "hrQuestions": "Questions on Strengths ans Weaknesses",
+        "suggestions": "Have a very clear understanding of Web Development.",
+        "sharedBy": "Radhika Nair"
+},
+    {
+        "jobLocation": "Delhi",
+        "organisation": "ARW",
+        "applicationMode": "Off Campus",
+        "selectionProcedure": "Looking for candidates strong in Web Development. They conduct aptitude test and also a design round.",
+        "technicalInterview": "They ask about your recent projects and the technologies you've worked with.",
+        "analyticalQuestions": "They usually ask questions on profit and loss.",
+        "hrQuestions": "Questions on Strengths ans Weaknesses",
+        "suggestions": "Have a very clear understanding of Web Development.",
+        "sharedBy": "Abish Mathew"
+},
+    {
+        "jobLocation": "Agra",
+        "organisation": "XYZ",
+        "applicationMode": "On Campus",
+        "selectionProcedure": "Looking for candidates strong in Web Development. They conduct aptitude test and also a design round.",
+        "technicalInterview": "They ask about your recent projects and the technologies you've worked with.",
+        "analyticalQuestions": "They usually ask questions on profit and loss.",
+        "hrQuestions": "Questions on Strengths ans Weaknesses",
+        "suggestions": "Have a very clear understanding of Web Development.",
+        "sharedBy": "Biswa Kalyan Rath"
+},
+    {
+        "jobLocation": "Jaipur",
+        "organisation": "ARW",
+        "applicationMode": "Off Campus",
+        "selectionProcedure": "Looking for candidates strong in Web Development. They conduct aptitude test and also a design round.",
+        "technicalInterview": "They ask about your recent projects and the technologies you've worked with.",
+        "analyticalQuestions": "They usually ask questions on profit and loss.",
+        "hrQuestions": "Questions on Strengths ans Weaknesses",
+        "suggestions": "Have a very clear understanding of Web Development.",
+        "sharedBy": "Biswa Kalyan Rath"
+},
+    {
+        "jobLocation": "Delhi",
+        "organisation": "XYZ",
+        "applicationMode": "Off Campus",
+        "selectionProcedure": "Looking for candidates strong in Web Development. They conduct aptitude test and also a design round.",
+        "technicalInterview": "They ask about your recent projects and the technologies you've worked with.",
+        "analyticalQuestions": "They usually ask questions on profit and loss.",
+        "hrQuestions": "Questions on Strengths ans Weaknesses",
+        "suggestions": "Have a very clear understanding of Web Development.",
+        "sharedBy": "Biswa Kalyan Rath"
+},
+    {
+        "jobLocation": "Hyderabad",
+        "organisation": "ARW",
+        "applicationMode": "On Campus",
+        "selectionProcedure": "Looking for candidates strong in Web Development. They conduct aptitude test and also a design round.",
+        "technicalInterview": "They ask about your recent projects and the technologies you've worked with.",
+        "analyticalQuestions": "They usually ask questions on profit and loss.",
+        "hrQuestions": "Questions on Strengths ans Weaknesses",
+        "suggestions": "Have a very clear understanding of Web Development.",
+        "sharedBy": "Biswa Kalyan Rath"
+},
+    {
+        "jobLocation": "Bombay",
+        "organisation": "XYZ",
+        "applicationMode": "On Campus",
+        "selectionProcedure": "Looking for candidates strong in Web Development. They conduct aptitude test and also a design round.",
+        "technicalInterview": "They ask about your recent projects and the technologies you've worked with.",
+        "analyticalQuestions": "They usually ask questions on profit and loss.",
+        "hrQuestions": "Questions on Strengths ans Weaknesses",
+        "suggestions": "Have a very clear understanding of Web Development.",
+        "sharedBy": "Biswa Kalyan Rath"
+}]

@@ -1,0 +1,263 @@
+@media(min-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Asap, sans-serif;
+        line-height: 1.5;
+    }
+
+    header {
+        background: #979797;
+        color: #d4d4d4;
+        font-size: 1.4rem;
+        padding: 16px;
+    }
+
+    header h1 {
+        font-weight: 200;
+    }
+
+    .body {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    aside {
+        border-right: 1px solid #e2e2e2;
+        width: 33%;
+        height: 82vh;
+        overflow-y: scroll;
+    }
+
+    section {
+        overflow-y: scroll;
+        width: 67%;
+        height: 80vh;
+    }
+
+    /* Scrollbar */
+    section::-webkit-scrollbar {
+        width: 1em;
+    }
+
+    section::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1);
+    }
+
+    section::-webkit-scrollbar-thumb {
+        background-color: #050000;
+        outline: 1px solid slategrey;
+    }
+    aside::-webkit-scrollbar {
+        width: 1em;
+    }
+    aside::-webkit-scrollbar-thumb {
+        background-color: #050000;
+        outline: 1px solid slategrey;
+    }
+    /* Scrollbar end */
+    .well {
+        background-color: #f2f2f2;
+        padding: 10px 20px;
+        margin: 10px 30px;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .well button {
+        background-color: transparent;
+        border: none;
+        color: #42367e;
+        border-bottom: 1px solid #bbbbbb;
+    }
+
+    .outline-box {
+        border: 2px solid #b1b1b1;
+        margin: 10px 20px;
+        padding: 20px 30px;
+        font-size: 13px;
+    }
+
+    section h2 {
+        font-weight: 100;
+        font-size: 35px;
+        padding: 30px;
+    }
+
+    .gray {
+        color: #777;
+        font-weight: bold;
+    }
+
+
+    select {
+        width: 100%;
+        height: 30px;
+    }
+
+    .select-style {
+        padding: 8px 0px;
+        font-size: 18px;
+    }
+
+
+
+    /* The container */
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 18px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* Hide the browser's default checkbox */
+    .container input {
+        position: absolute;
+        opacity: 0;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        border: 1px solid black;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input ~ .checkmark {
+        background-color: #aaa;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .container input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .container .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+}
+
+@media(max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Asap, sans-serif;
+        line-height: 1.5;
+    }
+
+    header {
+        background: #979797;
+        color: #d4d4d4;
+        font-size: 1.4rem;
+        padding: 16px;
+    }
+
+    header h1 {
+        font-weight: 200;
+    }
+
+    .body {
+        display: block;
+        margin-top: 16px;
+    }
+
+    aside {
+        border-right: 1px solid #e2e2e2;
+        display: flex;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    /* Scrollbar */
+    section::-webkit-scrollbar {
+        width: 1em;
+    }
+
+    section::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1);
+    }
+
+    section::-webkit-scrollbar-thumb {
+        background-color: #050000;
+        outline: 1px solid slategrey;
+    }
+    .outline-box {
+        border: 2px solid #b1b1b1;
+        margin: 10px 20px;
+        padding: 20px 30px;
+        font-size: 13px;
+    }
+
+    section h2 {
+        font-weight: 100;
+        font-size: 35px;
+        padding: 30px;
+    }
+
+    .gray {
+        color: #777;
+        font-weight: bold;
+    }
+
+    .well {
+        background-color: #f2f2f2;
+        width: 50%;
+        padding: 10px 20px;
+        margin: 10px 30px;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .well button {
+        background-color: transparent;
+        border: none;
+        color: #42367e;
+        border-bottom: 1px solid #bbbbbb;
+    }
+
+    .container {}
+    select {
+        width: 100%;
+        height: 30px;
+    }
+
+    .select-style {
+        padding: 8px 0px;
+        font-size: 18px;
+    }
+}
