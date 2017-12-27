@@ -7,6 +7,11 @@
         line-height: 1.5;
     }
 
+    body {
+        overflow: hidden;
+
+    }
+
     header {
         background: #979797;
         color: #d4d4d4;
@@ -26,8 +31,7 @@
     aside {
         border-right: 1px solid #e2e2e2;
         width: 33%;
-        height: 82vh;
-        overflow-y: scroll;
+        overflow: hidden;
     }
 
     section {
