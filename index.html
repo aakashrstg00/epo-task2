@@ -54,7 +54,7 @@
                 <h2>INTERVIEW EXPERIENCES :: {{org}}</h2>
             </div>
             <div>
-                <div class="outline-box" ng-repeat="post in posts|filter:appMode">
+                <div class="outline-box" ng-repeat="post in posts|filter:appMode|filter:org">
                     <div><span class="gray">Job Location :</span> {{post.jobLocation}}</div>
                     <div><span class="gray">Organisation :</span> {{post.organisation}}</div>
                     <div><span class="gray">Application Mode :</span> {{post.applicationMode}}</div>
